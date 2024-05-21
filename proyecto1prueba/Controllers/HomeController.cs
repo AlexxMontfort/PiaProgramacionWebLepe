@@ -6,6 +6,16 @@ namespace proyecto1prueba.Controllers;
 
 public class HomeController : Controller
 {
+    public IActionResult Admin()
+    {
+        return View();
+    }
+
+    public IActionResult Ayuda()
+    {
+        return View();
+    }
+
     private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)
